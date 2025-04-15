@@ -34,15 +34,13 @@ export function Future() {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <h3 className="text-3xl font-black text-[#E67E22]">FUTURO MEJOR PARA TU FAMILIA</h3>
+              <h3 className="text-3xl font-black text-[#E67E22]">UN FUTURO MEJOR PARA TU FAMILIA</h3>
               <p className="text-lg font-bold">
-                Creamos EcoDrive+ para recompensar tu esfuerzo y dedicación. Dándote{" "}
-                <span className="text-[#E67E22] font-bold">premios, regalos y beneficios exclusivos</span> queremos que sepas que
-                no estás solo.
+                Creamos ECODRIVE+ para reconocer tu esfuerzo y recompensarte cada día.{" "}
+                <span className="text-[#E67E22] font-bold">Con beneficios exclusivos, premios y sorpresas reales,</span> queremos que sientas que nunca estás solo.
               </p>
               <p className="text-lg font-bold">
-                Al mismo tiempo, nos ayudas a mejorar más familias peruanas y transformar la ciudad en un lugar mejor,
-                dónde el futuro sea cada vez más fácil.
+                Juntos, estamos construyendo un cambio positivo: ayudamos a miles de familias peruanas y hacemos de nuestras ciudades un lugar más limpio, justo y feliz para todos.
               </p>
             </motion.div>
           </div>

@@ -16,26 +16,26 @@ export function MissionVision() {
     <section className="py-20 bg-[#FDF2E9] font-nunito">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-8">
-        <motion.div 
-          initial={{ scale: 0 }}
-          animate={{ 
-            scale: [1, 1.1, 1],
-            rotate: [0, 360],
-            transition: { 
-              duration: 2, 
-              repeat: Infinity,
-              ease: "easeInOut"
-            }
-          }}
-          className="flex justify-center mb-8"
-        >
-          <Image 
-            src="/Estrella_svg.svg" 
-            alt="Estrella" 
-            width={70} 
-            height={70} 
-          />
-        </motion.div>
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{
+              scale: [1, 1.1, 1],
+              rotate: [0, 360],
+              transition: {
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }
+            }}
+            className="flex justify-center mb-8"
+          >
+            <Image
+              src="/Estrella_svg.svg"
+              alt="Estrella"
+              width={70}
+              height={70}
+            />
+          </motion.div>
         </div>
         <div className="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto">
           {/* Misión */}
@@ -54,9 +54,9 @@ export function MissionVision() {
             <div className="w-full max-w-lg relative h-[400px] overflow-hidden rounded-2xl">
               <FlipCard
                 title="Nuestra Misión"
-                description="Ofrecer un servicio de transporte que combina sostenibilidad, tecnología y 
-bienestar, conectando taxistas y pasajeros mediante una plataforma eficiente y 
-confiable."
+                description="Revolucionamos el transporte urbano, conectando pasajeros y conductores con beneficios reales.
+Premiamos la fidelidad con recompensas y experiencias únicas a nuestros clientes.
+Impulsamos un impacto positivo en el ambiente y la sociedad en donde operamos."
                 imageUrl="/Misión.png"
                 size="full"
               />
@@ -77,9 +77,9 @@ confiable."
             <div className="w-full max-w-lg relative h-[400px] overflow-hidden rounded-2xl">
               <FlipCard
                 title="Nuestra Visión"
-                description="Ser la plataforma líder en transporte sostenible que transforma la movilidad al 
-integrar tecnología, bienestar y sostenibilidad, conectando taxistas y pasajeros de 
-manera eficiente y confiable."
+                description="Ser la app de transporte urbano más valorada por su innovación, beneficios y propósito social.
+Queremos transformar las ciudades en donde operamos en espacios más resilientes, amables y visionarios.
+Cada viaje es una oportunidad para mejorar la vida de todos nuestros clientes."
                 imageUrl="/Visión.png"
                 size="full"
               />
